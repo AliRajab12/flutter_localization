@@ -1,0 +1,20 @@
+{
+    "helloWorld": "مرحبا",
+    "numOfWorkers": "{count, plural, =1{عامل} other{{count} عمال}}",
+    "@numOfWorkers": {
+        "description": "Number of workers",
+        "placeholders": {
+        "count": {
+            "example": "1"
+        }
+        }
+    },
+    "workType": "{workType, select, permanent{Permanent} contract{Contract} other{Unknown}}",
+    "@workType": {
+        "description": "work Type",
+        "placeholders": {
+            "workType":{}
+           
+        }
+    }
+}
